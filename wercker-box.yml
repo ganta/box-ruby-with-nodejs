@@ -1,0 +1,13 @@
+name: ruby-with-nodejs
+version: 0.0.1
+inherits: wercker/ruby@1.0.0
+type: main
+keyworkds:
+    - ruby
+    - nodejs
+script: |
+  sudo apt-get update
+  sudo apt-get install -y curl
+  curl -sL https://deb.nodesource.com/setup | sudo bash -
+  sudo apt-get install -y nodejs
+  sudo npm update

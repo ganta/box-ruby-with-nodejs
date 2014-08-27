@@ -2,7 +2,7 @@ name: ruby-with-nodejs
 version: 0.0.1
 inherits: wercker/ruby@1.0.0
 type: main
-keyworkds:
+keywords:
     - ruby
     - nodejs
 script: |

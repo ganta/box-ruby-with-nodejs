@@ -1,6 +1,6 @@
 name: ruby-with-nodejs
-version: 0.0.2
-inherits: wercker/ruby@1.0.0
+version: 0.0.3
+inherits: wercker/rvm@2.3.0
 type: main
 keywords:
     - ruby
